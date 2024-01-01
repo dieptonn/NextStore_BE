@@ -15,7 +15,7 @@ const upload = multer();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Thêm nguồn gốc của frontend ở đây
+    origin: "https://nextstore-gold.vercel.app", // Thêm nguồn gốc của frontend ở đây
     methods: "POST", // Chỉ cho phép phương thức POST
   })
 );
