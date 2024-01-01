@@ -3,6 +3,6 @@ const router = express.Router();
 const airController = require("../../app/controllers/categories/airController");
 const verifyToken = require("../../app/middlewares/verifyToken");
 
-router.get("/showProduct", verifyToken.verifyToken, airController.showProduct);
+router.get("/showProduct",  airController.showProduct);
 
 module.exports = router;
