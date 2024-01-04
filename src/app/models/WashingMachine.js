@@ -6,6 +6,11 @@ mongoose.plugin(slug);
 
 const WashingMachineSchema = new Schema(
     {
+        PD_id: {
+            type: Number,
+            required: [true],
+            trim: true,
+        },
         name: {
             type: String,
             maxLength: 255,
@@ -51,6 +56,11 @@ const WashingMachineSchema = new Schema(
             type: String,
             maxLength: 255,
             trim: true,
+        },
+        slug: {
+            type: String,
+            slug: 'name', // Chọn trường để tạo slug từ đó
+            unique: true,
         },
     },
     {
