@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const multer = require("multer");
 const route = require("./routes");
 const cors = require("cors");
-const { Client } = require('@elastic/elasticsearch')
+// const { Client } = require('@elastic/elasticsearch')
 
 const db = require("./config/db");
 const { verifyToken } = require("./app/middlewares/verifyToken");
