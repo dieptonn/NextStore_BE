@@ -11,10 +11,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 import pymongo
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
-client = pymongo.MongoClient("mongodb://127.0.0.1:27017/E-commerce")
-db = client["E-commerce"]
+client = pymongo.MongoClient(os.environ.get('MONGODB_URI'))
+db = client["NextStore"]
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
