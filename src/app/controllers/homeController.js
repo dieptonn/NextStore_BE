@@ -24,7 +24,7 @@ const elasticSearch = async (req, res) => {
     // console.log(reqData);
     try {
         const indexList = ['air', 'cooker', 'freezer', 'fridge', 'fryer', 'robot', 'television', 'washing_machine', 'water_heater']
-        // Truy vấn Elasticsearch
+        // Truy vấn Elasticsearch tim kiem tren toan bo field
         const body = await elasticsearchClient.client.search({
             index: indexList, // Thay thế 'my_index' bằng tên index của bạn
             body: {
