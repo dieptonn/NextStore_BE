@@ -3,7 +3,6 @@ const WaterHeater = require('./../models/WaterHeater');
 
 
 const showProduct = (req, res) => {
-    // res.json({ test: 'hehe' });
 
     var spawn = require('child_process').spawn;
 
@@ -26,7 +25,7 @@ const elasticSearch = async (req, res) => {
         const indexList = ['air', 'cooker', 'freezer', 'fridge', 'fryer', 'robot', 'television', 'washing_machine', 'water_heater']
         // Truy vấn Elasticsearch tim kiem tren toan bo field
         const body = await elasticsearchClient.client.search({
-            index: indexList, // Thay thế 'my_index' bằng tên index của bạn
+            index: indexList,
             body: {
                 query: {
                     multi_match: {

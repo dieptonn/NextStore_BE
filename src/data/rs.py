@@ -22,58 +22,11 @@ db = client["NextStore"]
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
-# # loading rating dataset
-# ratings = pd.read_csv(
-#     "https://s3-us-west-2.amazonaws.com/recommender-tutorial/ratings.csv")
-# # print(ratings.head())
-
-# # loading movie dataset
-# movies = pd.read_csv(
-#     "https://s3-us-west-2.amazonaws.com/recommender-tutorial/movies.csv")
-# # print(movies.head())
-
 ratings_collection = db["ratings"]
 movies_collection = db["movies"]
 
 ratings = pd.DataFrame(list(ratings_collection.find()))
 movies = pd.DataFrame(list(movies_collection.find()))
-
-
-n_ratings = len(ratings)
-n_movies = len(ratings['movieId'].unique())
-n_users = len(ratings['userId'].unique())
-
-# print(f"Number of ratings: {n_ratings}")
-# print(f"Number of unique movieId's: {n_movies}")
-# print(f"Number of unique users: {n_users}")
-# print(f"Average ratings per user: {round(n_ratings/n_users, 2)}")
-# print(f"Average ratings per movie: {round(n_ratings/n_movies, 2)}")
-
-user_freq = ratings[['userId', 'movieId']].groupby(
-    'userId').count().reset_index()
-user_freq.columns = ['userId', 'n_ratings']
-# print(user_freq.head())
-
-
-# Find Lowest and Highest rated movies:
-mean_rating = ratings.groupby('movieId')[['rating']].mean()
-# Lowest rated movies
-lowest_rated = mean_rating['rating'].idxmin()
-movies.loc[movies['movieId'] == lowest_rated]
-# Highest rated movies
-highest_rated = mean_rating['rating'].idxmax()
-movies.loc[movies['movieId'] == highest_rated]
-# show number of people who rated movies rated movie highest
-ratings[ratings['movieId'] == highest_rated]
-# show number of people who rated movies rated movie lowest
-ratings[ratings['movieId'] == lowest_rated]
-
-# the above movies has very low dataset. We will use bayesian average
-movie_stats = ratings.groupby('movieId')[['rating']].agg(['count', 'mean'])
-movie_stats.columns = movie_stats.columns.droplevel()
-
-
-# Now, we create user-item matrix using scipy csr matrix
 
 
 def create_matrix(df):
@@ -101,11 +54,6 @@ X, user_mapper, movie_mapper, user_inv_mapper, movie_inv_mapper = create_matrix(
     ratings)
 
 
-"""
-Find similar movies using KNN
-"""
-
-
 def find_similar_movies(movie_id, X, k, metric='cosine', show_distance=False):
 
     neighbour_ids = []
@@ -122,18 +70,6 @@ def find_similar_movies(movie_id, X, k, metric='cosine', show_distance=False):
         neighbour_ids.append(movie_inv_mapper[n])
     neighbour_ids.pop(0)
     return neighbour_ids
-
-
-movie_titles = dict(zip(movies['movieId'], movies['title']))
-
-movie_id = 3
-
-similar_ids = find_similar_movies(movie_id, X, k=10)
-movie_title = movie_titles[movie_id]
-
-# print(f"Since you watched {movie_title}")
-# for i in similar_ids:
-#     print(movie_titles[i])
 
 
 def recommend_movies_for_user(user_id, X, user_mapper, movie_mapper, movie_inv_mapper, k=10):
@@ -154,10 +90,6 @@ def recommend_movies_for_user(user_id, X, user_mapper, movie_mapper, movie_inv_m
         print(f"Movie with ID {movie_id} not found.")
         return
 
-    # print(f"Since you watched {movie_title}, you might also like:")
-    # for i in similar_ids:
-    #     print(movie_titles.get(i, "Movie not found"))
-
     recommendations = []
     for i in similar_ids:
         recommendations.append(movie_titles.get(i, "Movie not found"))
@@ -169,13 +101,6 @@ def recommend_movies_for_user(user_id, X, user_mapper, movie_mapper, movie_inv_m
 
     print(json.dumps(output_data))
 
-
-# user_id = 150  # Replace with the desired user ID
-# recommend_movies_for_user(user_id, X, user_mapper,
-#                           movie_mapper, movie_inv_mapper, k=10)
-
-
-# user_id = sys.argv[1]  # Replace with the desired user ID
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--userId', type=int, required=True)
