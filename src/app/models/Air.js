@@ -6,6 +6,13 @@ mongoose.plugin(slug);
 
 const AirSchema = new Schema(
     {
+        PD_id: {
+            type: Number,
+            unique: true,
+            index: true,
+            required: true,
+            default: 1
+        },
         name: {
             type: String,
             maxLength: 255,

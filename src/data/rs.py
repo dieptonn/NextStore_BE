@@ -23,79 +23,94 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 ratings_collection = db["ratings"]
-movies_collection = db["movies"]
-
 ratings = pd.DataFrame(list(ratings_collection.find()))
-movies = pd.DataFrame(list(movies_collection.find()))
+
+# PDs_collection = db["PDs"]
+# PDs = pd.DataFrame(list(PDs_collection.find()))
+
+# Get data from all collections
+collections = ["airs", "cookers", "freezers", "fridges", "fryers",
+               "robots", "televisions", "washingMachines", "waterHeaters"]
+allData = []
+
+for collection_name in collections:
+    collection = db[collection_name]
+    data = list(collection.find())
+    allData.extend(data)
+
+# Convert to DataFrame
+PDs = pd.DataFrame(allData)
+
+# print(PDs)
 
 
 def create_matrix(df):
 
     N = len(df['userId'].unique())
-    M = len(df['movieId'].unique())
+    M = len(df['PD_id'].unique())
 
     # Map Ids to indices
     user_mapper = dict(zip(np.unique(df["userId"]), list(range(N))))
-    movie_mapper = dict(zip(np.unique(df["movieId"]), list(range(M))))
+    PD_mapper = dict(zip(np.unique(df["PD_id"]), list(range(M))))
 
     # Map indices to IDs
     user_inv_mapper = dict(zip(list(range(N)), np.unique(df["userId"])))
-    movie_inv_mapper = dict(zip(list(range(M)), np.unique(df["movieId"])))
+    PD_inv_mapper = dict(zip(list(range(M)), np.unique(df["PD_id"])))
 
     user_index = [user_mapper[i] for i in df['userId']]
-    movie_index = [movie_mapper[i] for i in df['movieId']]
+    PD_index = [PD_mapper[i] for i in df['PD_id']]
 
-    X = csr_matrix((df["rating"], (movie_index, user_index)), shape=(M, N))
+    X = csr_matrix((df["rating"], (PD_index, user_index)), shape=(M, N))
 
-    return X, user_mapper, movie_mapper, user_inv_mapper, movie_inv_mapper
+    return X, user_mapper, PD_mapper, user_inv_mapper, PD_inv_mapper
 
 
-X, user_mapper, movie_mapper, user_inv_mapper, movie_inv_mapper = create_matrix(
+X, user_mapper, PD_mapper, user_inv_mapper, PD_inv_mapper = create_matrix(
     ratings)
 
 
-def find_similar_movies(movie_id, X, k, metric='cosine', show_distance=False):
+def find_similar_PDs(PD_id, X, k, metric='cosine', show_distance=False):
 
     neighbour_ids = []
 
-    movie_ind = movie_mapper[movie_id]
-    movie_vec = X[movie_ind]
+    PD_ind = PD_mapper[PD_id]
+    PD_vec = X[PD_ind]
     k += 1
     kNN = NearestNeighbors(n_neighbors=k, algorithm="brute", metric=metric)
     kNN.fit(X)
-    movie_vec = movie_vec.reshape(1, -1)
-    neighbour = kNN.kneighbors(movie_vec, return_distance=show_distance)
+    PD_vec = PD_vec.reshape(1, -1)
+    neighbour = kNN.kneighbors(PD_vec, return_distance=show_distance)
     for i in range(0, k):
         n = neighbour.item(i)
-        neighbour_ids.append(movie_inv_mapper[n])
+        neighbour_ids.append(PD_inv_mapper[n])
     neighbour_ids.pop(0)
     return neighbour_ids
 
 
-def recommend_movies_for_user(user_id, X, user_mapper, movie_mapper, movie_inv_mapper, k=10):
+def recommend_PDs_for_user(user_id, X, user_mapper, PD_mapper, PD_inv_mapper, k=10):
     df1 = ratings[ratings['userId'] == user_id]
 
     if df1.empty:
         print(f"User with ID {user_id} does not exist.")
         return
 
-    movie_id = df1[df1['rating'] == max(df1['rating'])]['movieId'].iloc[0]
+    PD_id = df1[df1['rating'] == max(df1['rating'])]['PD_id'].iloc[0]
 
-    movie_titles = dict(zip(movies['movieId'], movies['title']))
+    PD_titles = dict(zip(PDs['PD_id'], PDs['name']))
 
-    similar_ids = find_similar_movies(movie_id, X, k)
-    movie_title = movie_titles.get(movie_id, "Movie not found")
+    similar_ids = find_similar_PDs(PD_id, X, k)
+    PD_title = PD_titles.get(PD_id, "PD not found")
 
-    if movie_title == "Movie not found":
-        print(f"Movie with ID {movie_id} not found.")
+    if PD_title == "PD not found":
+        print(f"PD with ID {PD_id} not found.")
         return
 
     recommendations = []
     for i in similar_ids:
-        recommendations.append(movie_titles.get(i, "Movie not found"))
+        recommendations.append(PD_titles.get(i, "PD not found"))
 
     output_data = {
-        "movie_watched": movie_title,
+        "PD_bought": PD_title,
         "recommendations": recommendations
     }
 
@@ -106,5 +121,5 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--userId', type=int, required=True)
 args = parser.parse_args()
 user_id = args.userId
-recommend_movies_for_user(user_id, X, user_mapper,
-                          movie_mapper, movie_inv_mapper, k=10)
+recommend_PDs_for_user(user_id, X, user_mapper,
+                       PD_mapper, PD_inv_mapper, k=10)

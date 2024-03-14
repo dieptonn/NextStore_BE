@@ -13,13 +13,13 @@ const login = async (req, res) => {
             data
         });
     } catch (error) {
-        return res.send({'Login failed, error': error});
+        return res.send({ 'Login failed, error': error });
     }
 };
 
 const signup = async (req, res) => {
     const signupData = req.body;
-    // console.log(data);
+    // console.log(signupData);
     try {
         const data = await authService.createNewUser(signupData);
         return res.status(200).json({
@@ -27,8 +27,9 @@ const signup = async (req, res) => {
             data,
         });
     } catch (error) {
-        return res.send(
-            'Please double check your information, maybe this account has been registered before'
+        return res.send({
+            'Please double check your information, maybe this account has been registered before': error
+        }
         );
     }
 };

@@ -2,10 +2,13 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const slug = require('mongoose-slug-updater');
 mongoose.plugin(slug);
-// const mongooseDelete = require('mongoose-delete');
 
 const UserSchema = new Schema(
     {
+        _id: {
+            type: Number,
+            require: true
+        },
         name: {
             type: String,
             maxLength: 255,
@@ -45,5 +48,6 @@ const UserSchema = new Schema(
         timestamps: true,
     },
 );
+
 
 module.exports = mongoose.model('User', UserSchema);

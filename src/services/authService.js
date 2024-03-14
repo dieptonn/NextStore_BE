@@ -2,12 +2,20 @@ const User = require('../app/models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const salt = bcrypt.genSaltSync(10);
-
+const functions = require("../services/function");
 
 const createNewUser = async (signupData) => {
     try {
+
+        let maxId = await functions.getMaxID(User);
+        if (!maxId) {
+            maxId = 0;
+        }
+        const _id = Number(maxId) + 1;
+
         const hashPassword = await hashUserPassword(signupData.password);
         newUser = await User.create({
+            _id: _id,
             name: signupData.name,
             email: signupData.email,
             password: hashPassword,

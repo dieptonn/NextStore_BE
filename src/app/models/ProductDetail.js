@@ -7,8 +7,10 @@ const ProductDetailsSchema = new Schema(
     {
         PD_id: {
             type: Number,
-            // ref: 'WashingMachine',
-            required: [true],
+            unique: true,
+            index: true,
+            required: true,
+            default: 1
         },
         name: {
             type: String,

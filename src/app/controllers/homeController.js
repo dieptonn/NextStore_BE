@@ -18,6 +18,7 @@ const showProduct = (req, res) => {
     });
 };
 
+
 const elasticSearch = async (req, res) => {
     const reqData = req.body;
     // console.log(reqData);

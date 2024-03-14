@@ -8,8 +8,10 @@ const WashingMachineSchema = new Schema(
     {
         PD_id: {
             type: Number,
-            required: [true],
-            trim: true,
+            unique: true,
+            index: true,
+            required: true,
+            default: 1
         },
         name: {
             type: String,
