@@ -11,7 +11,6 @@ const waterHeaterRouter = require('./categories/waterHeater');
 const airRouter = require('./categories/air');
 
 
-
 function route(app) {
     app.use('/api/v1/auth', authRouter);
     app.use('/api/v1/home', homeRouter);

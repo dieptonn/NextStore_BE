@@ -3,6 +3,9 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const salt = bcrypt.genSaltSync(10);
 const functions = require("../services/function");
+const { v4: uuidv4 } = require('uuid');
+const GGUser = require('../app/models/GGUser');
+
 
 const createNewUser = async (signupData) => {
     try {
@@ -83,5 +86,33 @@ const hashUserPassword = async (password) => {
     }
 };
 
+const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reject) => {
+    try {
+        const newTokenLogin = uuidv4()
+        let response = await GGUser.findOne({
+            where: { id, tokenLogin },
+            raw: true
+        })
+        const token = response && jwt.sign({ id: response.id, email: response.email, role: response.role }, 'hip06', { expiresIn: '5d' })
+        resolve({
+            err: token ? 0 : 3,
+            msg: token ? 'OK' : 'User not found or fail to login !',
+            token
+        })
+        if (response) {
+            await GGUser.update({
+                tokenLogin: newTokenLogin
+            }, {
+                where: { id }
+            })
+        }
 
-module.exports = { createNewUser, checkLogin };
+    } catch (error) {
+        reject({
+            err: 2,
+            msg: 'Fail at auth server ' + error
+        })
+    }
+})
+
+module.exports = { createNewUser, checkLogin, loginSuccessService };
