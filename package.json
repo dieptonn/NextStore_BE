@@ -23,6 +23,7 @@
     "dotenv": "^16.1.4",
     "elasticsearch": "^16.7.3",
     "express": "^4.18.2",
+    "express-session": "^1.18.0",
     "get-json": "^1.0.1",
     "mongoose-slug-updater": "^3.3.0",
     "morgan": "^1.10.0",

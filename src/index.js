@@ -4,6 +4,8 @@ const morgan = require("morgan");
 const multer = require("multer");
 const route = require("./routes");
 const cors = require("cors");
+const session = require('express-session');
+const passport = require('passport');
 
 const db = require("./config/db");
 const { verifyToken } = require("./app/middlewares/verifyToken");
@@ -27,6 +29,15 @@ app.use(
   })
 );
 app.use(express.json());
+
+app.use(session({
+  secret: 'diepton012707',
+  resave: false,
+  saveUninitialized: false
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
 
 route(app);
 

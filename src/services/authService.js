@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken');
 const salt = bcrypt.genSaltSync(10);
 const functions = require("../services/function");
 const { v4: uuidv4 } = require('uuid');
-const GGUser = require('../app/models/GGUser');
 
 
 const createNewUser = async (signupData) => {
@@ -22,6 +21,7 @@ const createNewUser = async (signupData) => {
             name: signupData.name,
             email: signupData.email,
             password: hashPassword,
+            authType: 'local',
             image: signupData.image,
             address: signupData.address,
             gender: signupData.gender === '1' ? 'male' : 'female',
@@ -89,7 +89,7 @@ const hashUserPassword = async (password) => {
 const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reject) => {
     try {
         const newTokenLogin = uuidv4()
-        let response = await GGUser.findOne({
+        let response = await User.findOne({
             where: { id, tokenLogin },
             raw: true
         })
@@ -100,7 +100,7 @@ const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reje
             token
         })
         if (response) {
-            await GGUser.update({
+            await User.update({
                 tokenLogin: newTokenLogin
             }, {
                 where: { id }
@@ -115,4 +115,36 @@ const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reje
     }
 })
 
-module.exports = { createNewUser, checkLogin, loginSuccessService };
+const upsertUser = async (authType, dataRaw) => {
+    try {
+
+        let user = null
+        let maxId = await functions.getMaxID(User);
+        if (!maxId) {
+            maxId = 0;
+        }
+        const _id = Number(maxId) + 1;
+
+        if (authType === 'google') {
+            user = await User.findOne({
+                email: dataRaw.email,
+                authType: authType
+            }).exec()
+
+            if (!user) {
+                user = await User.create({
+                    _id: _id,
+                    name: dataRaw.name,
+                    email: dataRaw.email,
+                    authType: authType,
+                })
+            }
+        }
+        return user;
+
+    } catch (error) {
+        return error
+    }
+}
+
+module.exports = { createNewUser, checkLogin, loginSuccessService, upsertUser };
