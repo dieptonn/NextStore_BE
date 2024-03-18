@@ -9,6 +9,7 @@ const televisionRouter = require('./categories/television');
 const washingMachineRouter = require('./categories/washingMachine');
 const waterHeaterRouter = require('./categories/waterHeater');
 const airRouter = require('./categories/air');
+const chatBot = require('./chatbot')
 
 
 function route(app) {
@@ -23,6 +24,8 @@ function route(app) {
     app.use('/api/v1/washingMachines', washingMachineRouter);
     app.use('/api/v1/waterHeaters', waterHeaterRouter);
     app.use('/api/v1/airs', airRouter);
+    app.use('/api/v1/chatbot', chatBot);
+
 
 }
 
