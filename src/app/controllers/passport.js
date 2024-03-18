@@ -4,7 +4,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const authService = require('../../services/authService')
 const { v4: uuidv4 } = require('uuid');
 
-const callbackURL = `http://localhost:${process.env.PORT}/api/v1/auth/google/callback`;
+const callbackURL = `${process.env.URL_SERVER}/api/v1/auth/google/callback`;
 
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
