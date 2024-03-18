@@ -6,7 +6,7 @@ const getHomePage = (req, res) => {
 
 
 
-const postwebhook = (req, res) => {
+const postWebhook = (req, res) => {
     // Parse the request body from the POST
     let body = req.body;
 
@@ -53,4 +53,4 @@ const getWebHook = (req, res) => {
 }
 
 
-module.exports = { getHomePage, getWebHook, postwebhook } 
+module.exports = { getHomePage, getWebHook, postWebhook } 
