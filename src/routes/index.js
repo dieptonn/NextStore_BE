@@ -10,6 +10,8 @@ const washingMachineRouter = require('./categories/washingMachine');
 const waterHeaterRouter = require('./categories/waterHeater');
 const airRouter = require('./categories/air');
 const chatBot = require('./chatbot')
+const cartPayment = require('./cartPayment')
+
 
 
 function route(app) {
@@ -25,7 +27,7 @@ function route(app) {
     app.use('/api/v1/waterHeaters', waterHeaterRouter);
     app.use('/api/v1/airs', airRouter);
     app.use('/api/v1/chatbot', chatBot);
-
+    app.use('/api/v1/cartPayment', cartPayment);
 
 }
 
