@@ -27,9 +27,11 @@
     "get-json": "^1.0.1",
     "mongoose-slug-updater": "^3.3.0",
     "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "passport": "^0.7.0",
     "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0",
+    "react-paypal-button-v2": "^2.6.3",
     "request": "^2.88.2",
     "uuid": "^9.0.1"
   },
