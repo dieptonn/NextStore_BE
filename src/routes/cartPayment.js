@@ -3,6 +3,8 @@ const router = express.Router();
 const cartController = require("../app/controllers/cartCheckoutPaymet/cartController");
 const verifyToken = require("../app/middlewares/verifyToken");
 const checkoutController = require('../app/controllers/cartCheckoutPaymet/checkoutController')
+const orderController = require('../app/controllers/cartCheckoutPaymet/orderController')
+
 
 
 router.post("/getCart", cartController.getCart);
@@ -36,6 +38,7 @@ router.get("/", (req, res) => {
 });
 
 
-
+router.post("/getOrder", cartController.getOrder);
+router.post("/createNewOrder", cartController.createNewOrder);
 
 module.exports = router;
