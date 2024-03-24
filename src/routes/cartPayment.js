@@ -38,7 +38,7 @@ router.get("/", (req, res) => {
 });
 
 
-router.post("/getOrder", cartController.getOrder);
-router.post("/createNewOrder", cartController.createNewOrder);
+router.post("/getOrder", orderController.getOrder);
+router.post("/createNewOrder", orderController.createNewOrder);
 
 module.exports = router;
