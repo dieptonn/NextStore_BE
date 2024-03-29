@@ -11,6 +11,7 @@ const waterHeaterRouter = require('./categories/waterHeater');
 const airRouter = require('./categories/air');
 const chatBot = require('./chatbot')
 const cartPayment = require('./cartPayment')
+const exportCsv = require('./exportCsv.js')
 
 
 
@@ -28,6 +29,7 @@ function route(app) {
     app.use('/api/v1/airs', airRouter);
     app.use('/api/v1/chatbot', chatBot);
     app.use('/api/v1/cartPayment', cartPayment);
+    app.use('/api/v1/exportCsv', exportCsv);
 
 }
 
