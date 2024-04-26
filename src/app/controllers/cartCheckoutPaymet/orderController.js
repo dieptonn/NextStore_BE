@@ -3,7 +3,7 @@ const Order = require('../../models/Order')
 const getOrder = async (req, res) => {
     try {
         const orders = req.body;
-        const order = await Order.findOne({ orderId: orders.orderId });
+        const order = await Order.findOne({ orderId: orders.userId });
 
         if (!order) {
             return res.status(200).json({
@@ -38,6 +38,7 @@ const createNewOrder = async (req, res) => {
                 other_details: orders.other_details,
             }],
             voucher: orders.voucher,
+            address: orders.address,
             shipping_fee: orders.shipping_fee,
             total_price: parseFloat(orders.quantity) * parseFloat(orders.price) + parseFloat(orders.shipping_fee),
         });

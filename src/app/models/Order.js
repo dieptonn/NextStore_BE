@@ -51,6 +51,11 @@ const OrderSchema = new Schema(
             default: 'none',
             maxLength: 255,
         },
+        address: {
+            type: String,
+            required: true,
+            maxLength: 255,
+        },
         shipping_fee: {
             type: String,
             maxLength: 255,

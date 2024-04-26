@@ -1,5 +1,5 @@
 const elasticsearchClient = require('../../services/elasticSearch');
-const WaterHeater = require('./../models/WaterHeater');
+const Cooker = require('./../models/Cooker');
 
 
 const showProduct = (req, res) => {
@@ -35,7 +35,7 @@ const elasticSearch = async (req, res) => {
                         fuzziness: "AUTO"
                     }
                 },
-                size: 1000
+                size: 80
             }
         });
 
@@ -53,11 +53,11 @@ const elasticSearch = async (req, res) => {
 
 const pipeLine = async (req, res) => {
     try {
-        const data = await WaterHeater.find({}); // Truy vấn tất cả các tài liệu từ MongoDB
+        const data = await Cooker.find({}); // Truy vấn tất cả các tài liệu từ MongoDB
 
         const body = data.flatMap(doc => {
             const { _id, ...docWithoutId } = doc.toObject(); // Loại bỏ trường _id
-            return [{ index: { _index: 'water_heater', _type: '_doc', _id: doc._id.toString() } }, docWithoutId];
+            return [{ index: { _index: 'cooker', _type: '_doc', _id: doc._id.toString() } }, docWithoutId];
         });
 
         const response = await elasticsearchClient.client.bulk({ refresh: true, body });

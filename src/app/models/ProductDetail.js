@@ -75,7 +75,7 @@ const ProductDetailsSchema = new Schema(
                 trim: true,
             },
             price: {
-                type: Number,
+                type: String,
             },
             priceValidUntil: {
                 type: String,
