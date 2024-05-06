@@ -1,21 +1,61 @@
 const elasticsearchClient = require('../../services/elasticSearch');
-const Cooker = require('./../models/Cooker');
+
+const Air = require('../models/Air');
+const Cooker = require('../models/Cooker');
+const Freezer = require('../models/Freezer');
+const Fridge = require('../models/Fridge');
+const Fryer = require('../models/Fryer');
+const Robot = require('../models/Robot');
+const Television = require('../models/Television');
+const WashingMachine = require('../models/WashingMachine');
+const WaterHeater = require('../models/WaterHeater');
+const Rating = require('../models/Rating');
+
+const { spawn } = require('child_process');
 
 
-const showProduct = (req, res) => {
+const showProduct = async (req, res) => {
+    try {
+        // Lấy tất cả dữ liệu từ các collection
+        const allData = await Promise.all([
+            Air.find({}),
+            Cooker.find({}),
+            Freezer.find({}),
+            Fridge.find({}),
+            Fryer.find({}),
+            Robot.find({}),
+            Television.find({}),
+            WashingMachine.find({}),
+            WaterHeater.find({}),
 
-    var spawn = require('child_process').spawn;
+        ]);
 
-    var process = spawn('python', [
-        'D:/Code/NodeJs/NextStore/src/data/rs.py',
-        '--userId',
-        req.query.userId
-    ]);
-    process.stdout.on('data', function (data) {
-        console.log(data.toString());
+        const ratings = await Rating.find({})
 
-        res.send(data.toString());
-    });
+        // Gộp tất cả dữ liệu vào một mảng
+        const concatenatedData = allData.flat();
+
+        // Chuyển đổi mảng thành đối tượng JSON
+        const PDs_json = concatenatedData.map(doc => doc.toJSON());
+        const ratings_json = ratings.map(doc => doc.toJSON());
+
+
+        // Chuyển đổi đối tượng JSON thành chuỗi và truyền cho quy trình Python
+        const process = spawn('python', [
+            'D:/Code/NodeJs/NextStore/src/data/rs.py',
+        ]);
+
+        // Ghi dữ liệu JSON và userId vào stdin của quy trình Python
+        process.stdin.write(JSON.stringify({ userId: req.query.userId, PDs_json: PDs_json, ratings_json: ratings_json }));
+        process.stdin.end();
+
+        process.stdout.on('data', function (data) {
+            console.log(data.toString());
+            res.send(data.toString());
+        });
+    } catch (error) {
+        res.send('error: ' + error);
+    }
 };
 
 

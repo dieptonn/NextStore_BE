@@ -9,39 +9,28 @@ import sklearn
 import sys
 import matplotlib.pyplot as plt
 import seaborn as sns
-import warnings
-import pymongo
+
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-client = pymongo.MongoClient(os.environ.get('MONGODB_URI'))
-db = client["NextStore"]
-
-warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
-ratings_collection = db["ratings"]
-ratings = pd.DataFrame(list(ratings_collection.find()))
+input_data = sys.stdin.read()
 
-# PDs_collection = db["PDs"]
-# PDs = pd.DataFrame(list(PDs_collection.find()))
+# Chuyển đổi dữ liệu JSON thành đối tượng Python
+data = json.loads(input_data)
 
-# Get data from all collections
-collections = ["airs", "cookers", "freezers", "fridges", "fryers",
-               "robots", "televisions", "washingMachines", "waterHeaters"]
-allData = []
+# Lấy userId và PDs_json từ đối tượng Python
+user_id = int(data['userId'])
+PDs_json = data['PDs_json']
+ratings_json = data['ratings_json']
 
-for collection_name in collections:
-    collection = db[collection_name]
-    data = list(collection.find())
-    allData.extend(data)
+# Tạo dataframe từ PDs_json
+PDs = pd.DataFrame(PDs_json)
+ratings = pd.DataFrame(ratings_json)
 
-# Convert to DataFrame
-PDs = pd.DataFrame(allData)
 
-# print(PDs)
+# Thực hiện xử lý dữ liệu hoặc các thao tác khác với dataframe ở đây
+
+# In dataframe để kiểm tra
 
 
 def create_matrix(df):
@@ -114,12 +103,8 @@ def recommend_PDs_for_user(user_id, X, user_mapper, PD_mapper, PD_inv_mapper, k=
         "recommendations": recommendations
     }
 
-    print(json.dumps(output_data))
+    print(json.dumps(output_data, ensure_ascii=False))
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--userId', type=int, required=True)
-args = parser.parse_args()
-user_id = args.userId
 recommend_PDs_for_user(user_id, X, user_mapper,
                        PD_mapper, PD_inv_mapper, k=10)

@@ -29,6 +29,7 @@
     "mongoose-slug-updater": "^3.3.0",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
+    "pandas-js": "^0.2.4",
     "passport": "^0.7.0",
     "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0",

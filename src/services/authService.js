@@ -29,7 +29,7 @@ const createNewUser = async (signupData) => {
             role: 'user',
             // slug: slug,
         });
-        const token = generateToken(newUser._id);
+        const token = generateToken(newUser);
         return {
             token,
         };
@@ -59,7 +59,7 @@ const checkLogin = async (loginData) => {
         }
 
         // Tạo token
-        const token = generateToken(user._id);
+        const token = generateToken(user);
 
         // Trả về thông tin người dùng và token
         return {
@@ -70,8 +70,8 @@ const checkLogin = async (loginData) => {
     }
 }
 
-const generateToken = (userId) => {
-    const token = jwt.sign({ userId }, process.env.SECRETKEY, {
+const generateToken = (user) => {
+    const token = jwt.sign({ user }, process.env.SECRETKEY, {
         expiresIn: '1d',
     });
     return token;
@@ -136,11 +136,17 @@ const upsertUser = async (authType, dataRaw) => {
                     _id: _id,
                     name: dataRaw.name,
                     email: dataRaw.email,
+                    image: dataRaw.image,
                     authType: authType,
                 })
             }
         }
-        return user;
+
+        const token = jwt.sign({ user }, process.env.SECRETKEY, {
+            expiresIn: '1d',
+        });
+        // console.log(token)
+        return token;
 
     } catch (error) {
         return error
