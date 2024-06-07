@@ -6,6 +6,8 @@ const verifyToken = require("../app/middlewares/verifyToken");
 router.post("/showProduct", verifyToken.verifyToken, homeController.showProduct);
 router.post("/search", homeController.elasticSearch);
 router.get("/pipeline", homeController.pipeLine);
+router.get("/admin", homeController.jsonServer);
+
 
 
 

@@ -131,7 +131,18140 @@ const pipeLine = async (req, res) => {
 
 }
 
+const data = {
+    "from": "2024:06:05 12:00:00",
+    "to": "2024:06:05 9:00:00",
+    "duration": "3h",
+    "sum_passenger": 56413,
+    "graph_data": [
+        {
+            "route": "22",
+            "total_passenger": 2652,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02201",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02202",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02203",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02204",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02205",
+                            "passenger_count": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "23",
+            "total_passenger": 2968,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02301",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02302",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02303",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02304",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02305",
+                            "passenger_count": 19
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "24",
+            "total_passenger": 2839,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02401",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02402",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02403",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02404",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02405",
+                            "passenger_count": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "25",
+            "total_passenger": 2607,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02501",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02502",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02503",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02504",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02505",
+                            "passenger_count": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "26",
+            "total_passenger": 2761,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02601",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02602",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02603",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02604",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02605",
+                            "passenger_count": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "27",
+            "total_passenger": 2778,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02701",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02702",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02703",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02704",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02705",
+                            "passenger_count": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "28",
+            "total_passenger": 2590,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02801",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02802",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02803",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02804",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02805",
+                            "passenger_count": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "29",
+            "total_passenger": 3066,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B02901",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B02902",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B02903",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B02904",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B02905",
+                            "passenger_count": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "30",
+            "total_passenger": 2798,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03001",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03002",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03003",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03004",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03005",
+                            "passenger_count": 28
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "31",
+            "total_passenger": 2890,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03101",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03102",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03103",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03105",
+                            "passenger_count": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "32",
+            "total_passenger": 3068,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03201",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03202",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03203",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03204",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03205",
+                            "passenger_count": 28
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "33",
+            "total_passenger": 2888,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03301",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03302",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03303",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03304",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03305",
+                            "passenger_count": 23
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "34",
+            "total_passenger": 2810,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03401",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03402",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03403",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03404",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03405",
+                            "passenger_count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "35",
+            "total_passenger": 2979,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03501",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03502",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03503",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03504",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03505",
+                            "passenger_count": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "36",
+            "total_passenger": 2783,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03601",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03602",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03603",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03604",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03605",
+                            "passenger_count": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "37",
+            "total_passenger": 2668,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 14
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03701",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03702",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03703",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03704",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03705",
+                            "passenger_count": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "38",
+            "total_passenger": 2769,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 26
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03801",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03802",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03803",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03804",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03805",
+                            "passenger_count": 27
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "39",
+            "total_passenger": 2783,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 5
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B03901",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B03902",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B03903",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B03904",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B03905",
+                            "passenger_count": 19
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "40",
+            "total_passenger": 2868,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 17
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 2
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 22
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 13
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 15
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 25
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04001",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04002",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04003",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04004",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04005",
+                            "passenger_count": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "route": "41",
+            "total_passenger": 2848,
+            "graph_data": [
+                {
+                    "time": "2024:06:05 12:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 26
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 19
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 27
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 11
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 23
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 11:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 11
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 29
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 2
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 27
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 13
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 28
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 24
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 18
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 10
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 21
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 4
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 10:00:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 8
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:55:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 19
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 18
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 3
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:50:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 10
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 12
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:45:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 24
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 6
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:40:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 7
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 9
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 20
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:35:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 30
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:30:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 14
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 22
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 1
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:25:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 15
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 12
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 29
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 4
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:20:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 20
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 5
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 21
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 9
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:15:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 16
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 30
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 17
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 7
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:10:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 3
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 25
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 8
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 16
+                        }
+                    ]
+                },
+                {
+                    "time": "2024:06:05 09:05:00",
+                    "buses": [
+                        {
+                            "bus_plate": "29B04101",
+                            "passenger_count": 6
+                        },
+                        {
+                            "bus_plate": "29B04102",
+                            "passenger_count": 23
+                        },
+                        {
+                            "bus_plate": "29B04103",
+                            "passenger_count": 1
+                        },
+                        {
+                            "bus_plate": "29B04104",
+                            "passenger_count": 28
+                        },
+                        {
+                            "bus_plate": "29B04105",
+                            "passenger_count": 28
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+const jsonServer = (req, res) => {
+    return res.json(data);
+}
 
 
 
-module.exports = { showProduct, elasticSearch, pipeLine };
+
+module.exports = { showProduct, elasticSearch, pipeLine, jsonServer };
