@@ -10,7 +10,7 @@ const verifyToken = async (req, res, next) => {
     }
     //get token
     const token = authorization.replace('Bearer ', '');
-    // console.log(token);
+    console.log(token);
 
     //verify token
     try {
