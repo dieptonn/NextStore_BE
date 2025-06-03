@@ -1,16 +1,15 @@
-
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const authService = require('../../services/authService')
-const { v4: uuidv4 } = require('uuid');
+const {v4: uuidv4} = require('uuid');
 
 const callbackURL = `${process.env.URL_SERVER}/api/v1/auth/google/callback`;
 
 passport.use(new GoogleStrategy({
-    clientID: process.env.GOOGLE_CLIENT_ID,
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: callbackURL
-},
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        callbackURL: callbackURL
+    },
     async function (accessToken, refreshToken, profile, cb) {
 
         // console.log({ accessToken: accessToken, refreshToken: refreshToken, profile: profile, cb: cb });
@@ -22,7 +21,7 @@ passport.use(new GoogleStrategy({
             googleId: profile.id
         }
         let userToken = await authService.upsertUser(authType, dataRaw);
-        console.log(userToken)
+        // console.log(userToken)
         // user.code = uuidv4();
         return cb(null, userToken)
     }

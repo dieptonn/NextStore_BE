@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const salt = bcrypt.genSaltSync(10);
 const functions = require("../services/function");
-const { v4: uuidv4 } = require('uuid');
+const {v4: uuidv4} = require('uuid');
 
 
 const createNewUser = async (signupData) => {
@@ -41,7 +41,7 @@ const createNewUser = async (signupData) => {
 const checkLogin = async (loginData) => {
     try {
         // Kiểm tra thông tin đăng nhập
-        const user = await User.findOne({ email: loginData.username });
+        const user = await User.findOne({email: loginData.username});
 
         if (!user) {
             return res.send('Invalid email or password');
@@ -71,7 +71,7 @@ const checkLogin = async (loginData) => {
 }
 
 const generateToken = (user) => {
-    const token = jwt.sign({ user }, process.env.SECRETKEY, {
+    const token = jwt.sign({user}, process.env.SECRETKEY, {
         expiresIn: '1d',
     });
     return token;
@@ -90,10 +90,14 @@ const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reje
     try {
         const newTokenLogin = uuidv4()
         let response = await User.findOne({
-            where: { id, tokenLogin },
+            where: {id, tokenLogin},
             raw: true
         })
-        const token = response && jwt.sign({ id: response.id, email: response.email, role: response.role }, 'hip06', { expiresIn: '5d' })
+        const token = response && jwt.sign({
+            id: response.id,
+            email: response.email,
+            role: response.role
+        }, 'hip06', {expiresIn: '5d'})
         resolve({
             err: token ? 0 : 3,
             msg: token ? 'OK' : 'User not found or fail to login !',
@@ -103,7 +107,7 @@ const loginSuccessService = (id, tokenLogin) => new Promise(async (resolve, reje
             await User.update({
                 tokenLogin: newTokenLogin
             }, {
-                where: { id }
+                where: {id}
             })
         }
 
@@ -142,10 +146,8 @@ const upsertUser = async (authType, dataRaw) => {
             }
         }
 
-        const token = jwt.sign({ user }, process.env.SECRETKEY, {
-            expiresIn: '1d',
-        });
-        // console.log(token)
+        const token = generateToken(user);
+        console.log(token)
         return token;
 
     } catch (error) {
@@ -153,4 +155,4 @@ const upsertUser = async (authType, dataRaw) => {
     }
 }
 
-module.exports = { createNewUser, checkLogin, loginSuccessService, upsertUser };
+module.exports = {createNewUser, checkLogin, loginSuccessService, upsertUser};

@@ -76,7 +76,7 @@ def find_similar_PDs(PD_id, X, k, metric='cosine', show_distance=False):
     return neighbour_ids
 
 
-def recommend_PDs_for_user(user_id, X, user_mapper, PD_mapper, PD_inv_mapper, k=10):
+def recommend_PDs_for_user(user_id, X, user_mapper, PD_mapper, PD_inv_mapper, k=6):
     df1 = ratings[ratings['userId'] == user_id]
 
     if df1.empty:
@@ -107,4 +107,4 @@ def recommend_PDs_for_user(user_id, X, user_mapper, PD_mapper, PD_inv_mapper, k=
 
 
 recommend_PDs_for_user(user_id, X, user_mapper,
-                       PD_mapper, PD_inv_mapper, k=10)
+                       PD_mapper, PD_inv_mapper, k=6)

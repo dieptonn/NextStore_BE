@@ -11,12 +11,12 @@ const WashingMachine = require('../models/WashingMachine');
 const WaterHeater = require('../models/WaterHeater');
 const Rating = require('../models/Rating');
 
-const { spawn } = require('child_process');
+const {spawn} = require('child_process');
 
 
 const showProduct = async (req, res) => {
+    
     try {
-        // Lấy tất cả dữ liệu từ các collection
         const allData = await Promise.all([
             Air.find({}),
             Cooker.find({}),
@@ -27,34 +27,76 @@ const showProduct = async (req, res) => {
             Television.find({}),
             WashingMachine.find({}),
             WaterHeater.find({}),
-
         ]);
 
-        const ratings = await Rating.find({})
+        const ratings = await Rating.find({});
 
         // Gộp tất cả dữ liệu vào một mảng
         const concatenatedData = allData.flat();
-
-        // Chuyển đổi mảng thành đối tượng JSON
         const PDs_json = concatenatedData.map(doc => doc.toJSON());
         const ratings_json = ratings.map(doc => doc.toJSON());
 
-
-        // Chuyển đổi đối tượng JSON thành chuỗi và truyền cho quy trình Python
+        // Gọi quy trình Python để lấy kết quả gợi ý
         const process = spawn('python', [
             'D:/Code/NodeJs/NextStore/src/data/rs.py',
         ]);
 
+        // Thu thập output từ quy trình Python
+        let resultData = '';
+        process.stdout.on('data', (data) => {
+            resultData += data.toString();
+        });
+
+        process.stdout.on('end', async () => {
+            // Parse output từ Python thành JSON
+            let recResponse;
+            try {
+                recResponse = JSON.parse(resultData);
+            } catch (error) {
+                return res.status(500).json({error: 'Lỗi parse dữ liệu từ Python: ' + error.message});
+            }
+            const {PD_bought, recommendations} = recResponse;
+
+            // Danh sách các model cần truy vấn
+            const models = [Air, Cooker, Freezer, Fridge, Fryer, Robot, Television, WashingMachine, WaterHeater];
+
+            // Hàm helper tìm sản phẩm theo tên qua các model đã cho
+            const findProductByName = async (name) => {
+                for (let model of models) {
+                    const found = await model.findOne({name: name});
+                    if (found) return found.toJSON();
+                }
+                return null;
+            };
+
+            // Tìm sản phẩm đã mua (PD_bought)
+            const boughtProduct = await findProductByName(PD_bought);
+
+            // Duyệt qua mảng recommendations để tìm các sản phẩm tương ứng
+            const recommendedProducts = [];
+            for (let recName of recommendations) {
+                const product = await findProductByName(recName);
+                if (product) {
+                    recommendedProducts.push(product);
+                }
+            }
+
+            return res.status(200).json({
+                status: 'success',
+                PD_bought: boughtProduct,
+                recommendations: recommendedProducts,
+            });
+        });
+
         // Ghi dữ liệu JSON và userId vào stdin của quy trình Python
-        process.stdin.write(JSON.stringify({ userId: req.query.userId, PDs_json: PDs_json, ratings_json: ratings_json }));
+        process.stdin.write(JSON.stringify({userId: req.query.userId, PDs_json: PDs_json, ratings_json: ratings_json}));
         process.stdin.end();
 
-        process.stdout.on('data', function (data) {
-            console.log(data.toString());
-            res.send(data.toString());
+        process.stderr.on('data', (data) => {
+            console.error('Python error:', data.toString());
         });
     } catch (error) {
-        res.send('error: ' + error);
+        return res.status(500).send('error: ' + error);
     }
 };
 
@@ -86,7 +128,7 @@ const elasticSearch = async (req, res) => {
         })
     } catch (error) {
         console.error('Error searching documents:', error);
-        return res.status(500).json({ error: 'Internal server error' });
+        return res.status(500).json({error: 'Internal server error'});
     }
 };
 
@@ -96,11 +138,11 @@ const pipeLine = async (req, res) => {
         const data = await Cooker.find({}); // Truy vấn tất cả các tài liệu từ MongoDB
 
         const body = data.flatMap(doc => {
-            const { _id, ...docWithoutId } = doc.toObject(); // Loại bỏ trường _id
-            return [{ index: { _index: 'cooker', _type: '_doc', _id: doc._id.toString() } }, docWithoutId];
+            const {_id, ...docWithoutId} = doc.toObject(); // Loại bỏ trường _id
+            return [{index: {_index: 'cooker', _type: '_doc', _id: doc._id.toString()}}, docWithoutId];
         });
 
-        const response = await elasticsearchClient.client.bulk({ refresh: true, body });
+        const response = await elasticsearchClient.client.bulk({refresh: true, body});
         console.log(JSON.stringify(response, null, 2))
 
         if (response && response.body && response.body.errors) {
@@ -116,7 +158,7 @@ const pipeLine = async (req, res) => {
                 }
             });
             console.log('Errored documents:', erroredDocuments);
-            return res.status(500).json({ error: 'Internal server error' });
+            return res.status(500).json({error: 'Internal server error'});
         } else {
             console.log('Bulk operation completed successfully.');
             return res.status(200).json({
@@ -126,7 +168,7 @@ const pipeLine = async (req, res) => {
         }
     } catch (error) {
         console.error('Error in pipeline:', error);
-        return res.status(404).json({ error: 'Internal server error' });
+        return res.status(404).json({error: 'Internal server error'});
     }
 
 }
@@ -18265,6 +18307,4 @@ const jsonServer = (req, res) => {
 }
 
 
-
-
-module.exports = { showProduct, elasticSearch, pipeLine, jsonServer };
+module.exports = {showProduct, elasticSearch, pipeLine, jsonServer};

@@ -8,14 +8,16 @@ router.post('/login', authController.login);
 router.post('/signup', authController.signup);
 
 router.get('/google',
-    passport.authenticate('google', { scope: ['profile', 'email'], session: false }));
+    passport.authenticate('google', {scope: ['profile', 'email'], session: false}));
 
 router.get('/google/callback',
-    passport.authenticate('google', { failureRedirect: `${process.env.URL_CLIENT}/login` }),
+    passport.authenticate('google', {failureRedirect: `${process.env.URL_CLIENT}/login`}),
     function (req, res) {
         // Successful authentication, redirect home.
         // console.log(req.user)
-        res.redirect(process.env.URL_CLIENT);
+        const token = req.user;
+        res.redirect(`${process.env.URL_CLIENT}/oauth-success?token=${token}`);
+        // res.redirect(process.env.URL_CLIENT);
     });
 
 // router.post('/login-success', authController.loginSuccess)

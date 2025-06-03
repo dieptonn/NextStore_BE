@@ -41,9 +41,9 @@ const createOrder = async (cart) => {
 };
 
 /**
-* Capture payment for the created order to complete the transaction.
-* @see https://developer.paypal.com/docs/api/orders/v2/#orders_capture
-*/
+ * Capture payment for the created order to complete the transaction.
+ * @see https://developer.paypal.com/docs/api/orders/v2/#orders_capture
+ */
 const captureOrder = async (orderID) => {
     const accessToken = await verifyToken.generateAccessToken();
     const url = `${process.env.base}/v2/checkout/orders/${orderID}/capture`;
@@ -77,4 +77,4 @@ async function handleResponse(response) {
     }
 }
 
-module.exports = { createOrder, captureOrder }
+module.exports = {createOrder, captureOrder}

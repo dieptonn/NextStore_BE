@@ -6,15 +6,15 @@ const verifyToken = async (req, res, next) => {
 
     if (!authorization) {
         ``
-        return res.status(401).json({ error: 'Unauthorized' });
+        return res.status(401).json({error: 'Unauthorized'});
     }
     //get token
     const token = authorization.replace('Bearer ', '');
-    console.log(token);
+    // console.log(token);
 
     //verify token
     try {
-        const { user } = jwt.verify(token, process.env.SECRETKEY);
+        const {user} = jwt.verify(token, process.env.SECRETKEY);
 
         const userId = user._id
         // console.log(userId);
@@ -27,7 +27,7 @@ const verifyToken = async (req, res, next) => {
             return res.send('User not found')
         }
     } catch (error) {
-        return res.status(401).json({ error: 'Invalid token' });
+        return res.status(401).json({error: 'Invalid token'});
     }
 };
 
@@ -54,4 +54,4 @@ const generateAccessToken = async () => {
     }
 };
 
-module.exports = { verifyToken, generateAccessToken };
+module.exports = {verifyToken, generateAccessToken};
