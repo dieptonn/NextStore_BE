@@ -53,6 +53,7 @@ const addToCart = async (req, res) => {
                     name: orders.name,
                     quantity: orders.quantity,
                     price: orders.price,
+                    product_img: orders.image,
                     other_details: orders.other_details
                 });
 
@@ -75,6 +76,7 @@ const addToCart = async (req, res) => {
                     name: orders.name,
                     quantity: orders.quantity,
                     price: orders.price,
+                    product_img: orders.image,
                     other_details: orders.other_details
                 }],
                 total_price: parseFloat(orders.quantity) * parseFloat(orders.price),

@@ -23,6 +23,11 @@ const CartSchema = new Schema(
                     maxLength: 255,
                     trim: true,
                 },
+                product_img: {
+                    type: String,
+                    maxLength: 255,
+                    trim: true,
+                },
                 quantity: {
                     type: Number,
                     required: true
