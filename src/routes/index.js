@@ -15,7 +15,7 @@ const exportCsv = require('./exportCsv.js')
 const filter = require('./filter.js')
 const user = require('./user.js')
 const product = require('./product.js')
-
+const category = require('./categories/category.js')
 
 function route(app) {
     app.use('/api/v1/auth', authRouter);
@@ -35,6 +35,7 @@ function route(app) {
     app.use('/api/v1/filter', filter);
     app.use('/api/v1/user', user);
     app.use('/api/v1/product', product);
+    app.use('/api/v1/category', category);
 }
 
 module.exports = route;
