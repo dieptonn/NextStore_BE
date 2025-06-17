@@ -71,7 +71,15 @@ const OrderSchema = new Schema(
             enum: ['paid', 'unpaid'],
             default: 'unpaid',
             maxLength: 10,
-        }
+        },
+        payment_method: {
+            type: String,
+            enum: ['paypal', 'cod'],
+            required: true
+        },
+        transactionId: {
+            type: String
+        },
     },
     {
         timestamps: true,

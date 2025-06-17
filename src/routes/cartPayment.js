@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const cartController = require("../app/controllers/cartCheckoutPaymet/cartController");
+const cartController = require("../app/controllers/cartCheckoutPayment/cartController");
 const verifyToken = require("../app/middlewares/verifyToken");
-const checkoutController = require('../app/controllers/cartCheckoutPaymet/checkoutController')
-const orderController = require('../app/controllers/cartCheckoutPaymet/orderController')
+const checkoutController = require('../app/controllers/cartCheckoutPayment/checkoutController')
+const orderController = require('../app/controllers/cartCheckoutPayment/orderController')
 
 
 router.post("/getCart", cartController.getCart);
@@ -40,5 +40,8 @@ router.get("/", (req, res) => {
 
 router.post("/getOrder", orderController.getOrder);
 router.post("/createNewOrder", orderController.createNewOrder);
+
+router.post("/create-order-after-payment", orderController.createOrderAfterPayment);
+router.get("/get-all", orderController.getAllOrders);
 
 module.exports = router;
